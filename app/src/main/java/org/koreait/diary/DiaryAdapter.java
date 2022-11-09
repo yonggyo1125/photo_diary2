@@ -8,9 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class DiaryAdapter extends RecyclerView.Adapter<ViewHolder> {
-    private ArrayList<Diary> items = new ArrayList<Diary>();
+    private List<Diary> items = new ArrayList<Diary>();
 
     @NonNull
     @Override
@@ -32,5 +33,9 @@ public class DiaryAdapter extends RecyclerView.Adapter<ViewHolder> {
     @Override
     public int getItemCount() {
         return items.size();
+    }
+
+    public void setItems(List items)  {
+        this.items = items;
     }
 }
