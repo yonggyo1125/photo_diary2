@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">일기장</string>
+
+    <!-- 공통 S -->
+    <string name="home">홈</string>
+    <string name="more_menu">더보기</string>
+    <!-- 공통 E -->
+
+    <!-- 회원 관련 S -->
+    <string name="loginUserId">아이디</string>
+    <string name="loginUserPass">비밀번호</string>
+    <string name="login">로그인</string>
+    <string name="join">회원가입</string>
+    <string name="findUserId">아이디 찾기</string>
+    <string name="findUserPass">비밀번호 찾기</string>
+    <string name="requiredUserId">아이디를 입력하세요.</string>
+    <string name="requiredUserPass">비밀번호를 입력하세요.</string>
+    <string name="incorrectUserIdOrPass">아이디 또는 비밀번호가 일치하지 않습니다.</string>
+    <string name="logout">로그아웃</string>
+    <!-- 회원 관련 E -->
+
+    <!-- 일기쓰기 관련 S -->
+    <string name="write_diary">일기쓰기</string>
+    <!-- 일기쓰기 관련 E -->
+
+    <string name="hello_blank_fragment"></string>
+</resources>

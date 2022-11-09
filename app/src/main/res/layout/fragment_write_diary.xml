@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WriteDiaryFragment" >
+
+    <EditText
+        android:id="@+id/diaryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="일기 제목"
+        android:inputType="textPersonName" />
+
+    <FrameLayout
+        android:id="@+id/previewFrame"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/diaryContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="일기 내용"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/writeDiaryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="작성하기" />
+
+</LinearLayout>
